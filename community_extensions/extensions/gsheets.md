@@ -97,6 +97,6 @@ LOAD {{ page.extension.name }};
 
 | function_name | function_type | description | comment | examples |
 |---------------|---------------|-------------|---------|----------|
-| read_gsheet   | table         | NULL        | NULL    | []       |
+| read_gsheet   | table         | -           | -       | []       |
 
 

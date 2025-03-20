@@ -105,7 +105,7 @@ LOAD {{ page.extension.name }};
 
 |  function_name  | function_type | description | comment | examples |
 |-----------------|---------------|-------------|---------|----------|
-| httpserve_start | scalar        | NULL        | NULL    | []       |
-| httpserve_stop  | scalar        | NULL        | NULL    | []       |
+| httpserve_start | scalar        | -           | -       | []       |
+| httpserve_stop  | scalar        | -           | -       | []       |
 
 

@@ -128,7 +128,7 @@ LOAD {{ page.extension.name }};
 
 | function_name | function_type | description | comment | examples |
 |---------------|---------------|-------------|---------|----------|
-| http_get      | scalar        | NULL        | NULL    | []       |
-| http_post     | scalar        | NULL        | NULL    | []       |
+| http_get      | scalar        | -           | -       | []       |
+| http_post     | scalar        | -           | -       | []       |
 
 

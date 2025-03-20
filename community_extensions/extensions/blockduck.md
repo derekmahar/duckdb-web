@@ -54,20 +54,20 @@ LOAD {{ page.extension.name }};
 
 |            function_name            | function_type | description | comment | examples |
 |-------------------------------------|---------------|-------------|---------|----------|
-| bitcoin_blocks_rpc                  | table         | NULL        | NULL    | []       |
-| bitcoin_inputs_rpc                  | table         | NULL        | NULL    | []       |
-| bitcoin_outputs_rpc                 | table         | NULL        | NULL    | []       |
-| bitcoin_transactions_rpc            | table         | NULL        | NULL    | []       |
-| blockduck_create_contract_event_rpc | pragma        | NULL        | NULL    | []       |
-| blockduck_create_contract_view_rpc  | pragma        | NULL        | NULL    | []       |
-| blockduck_set_configs               | pragma        | NULL        | NULL    | []       |
-| blockduck_set_verbose               | pragma        | NULL        | NULL    | []       |
-| blockduck_version                   | table         | NULL        | NULL    | []       |
-| eth_blocks_rpc                      | table         | NULL        | NULL    | []       |
-| eth_latest_block_rpc                | table         | NULL        | NULL    | []       |
-| eth_logs_rpc                        | table         | NULL        | NULL    | []       |
-| eth_traces_rpc                      | table         | NULL        | NULL    | []       |
-| eth_traces_v2_rpc                   | table         | NULL        | NULL    | []       |
-| eth_transactions_rpc                | table         | NULL        | NULL    | []       |
+| bitcoin_blocks_rpc                  | table         | -           | -       | []       |
+| bitcoin_inputs_rpc                  | table         | -           | -       | []       |
+| bitcoin_outputs_rpc                 | table         | -           | -       | []       |
+| bitcoin_transactions_rpc            | table         | -           | -       | []       |
+| blockduck_create_contract_event_rpc | pragma        | -           | -       | []       |
+| blockduck_create_contract_view_rpc  | pragma        | -           | -       | []       |
+| blockduck_set_configs               | pragma        | -           | -       | []       |
+| blockduck_set_verbose               | pragma        | -           | -       | []       |
+| blockduck_version                   | table         | -           | -       | []       |
+| eth_blocks_rpc                      | table         | -           | -       | []       |
+| eth_latest_block_rpc                | table         | -           | -       | []       |
+| eth_logs_rpc                        | table         | -           | -       | []       |
+| eth_traces_rpc                      | table         | -           | -       | []       |
+| eth_traces_v2_rpc                   | table         | -           | -       | []       |
+| eth_transactions_rpc                | table         | -           | -       | []       |
 
 

@@ -73,9 +73,9 @@ LOAD {{ page.extension.name }};
 
 |   function_name   | function_type | description | comment | examples |
 |-------------------|---------------|-------------|---------|----------|
-| nanoarrow_version | scalar        | NULL        | NULL    | []       |
-| read_arrow        | table         | NULL        | NULL    | []       |
-| scan_arrow_ipc    | table         | NULL        | NULL    | []       |
-| to_arrow_ipc      | table         | NULL        | NULL    | []       |
+| nanoarrow_version | scalar        | -           | -       | []       |
+| read_arrow        | table         | -           | -       | []       |
+| scan_arrow_ipc    | table         | -           | -       | []       |
+| to_arrow_ipc      | table         | -           | -       | []       |
 
 

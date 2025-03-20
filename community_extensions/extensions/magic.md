@@ -11,14 +11,14 @@ extension:
   version: 0.0.1
   language: C++
   build: cmake
-  excluded_platforms: "linux_amd64_musl;wasm_mvp;wasm_eh;wasm_threads;windows_amd64_rtools;windows_amd64_mingw;windows_amd64"
+  excluded_platforms: "linux_amd64_musl;windows_amd64_rtools;windows_amd64_mingw;windows_amd64"
   license: MIT
   maintainers:
     - carlopi
 
 repo:
   github: carlopi/duckdb_magic
-  ref: 63f6e5f30220a3a65cfe168099c3fdbd2d5af4bd
+  ref: 4a6f9342814898609cb6a9f7dcad45904412680a
 
 docs:
   hello_world: |
@@ -69,8 +69,8 @@ LOAD {{ page.extension.name }};
 
 | function_name | function_type | description | comment | examples |
 |---------------|---------------|-------------|---------|----------|
-| magic_mime    | scalar        | NULL        | NULL    | []       |
-| magic_type    | scalar        | NULL        | NULL    | []       |
-| read_any      | table_macro   | NULL        | NULL    | []       |
+| magic_mime    | scalar        | -           | -       | []       |
+| magic_type    | scalar        | -           | -       | []       |
+| read_any      | table_macro   | -           | -       | []       |
 
 

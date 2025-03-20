@@ -112,6 +112,6 @@ LOAD {{ page.extension.name }};
 
 | function_name | function_type | description | comment | examples |
 |---------------|---------------|-------------|---------|----------|
-| sheetreader   | table         | NULL        | NULL    | []       |
+| sheetreader   | table         | -           | -       | []       |
 
 

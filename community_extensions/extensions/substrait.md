@@ -61,9 +61,9 @@ LOAD {{ page.extension.name }};
 
 |    function_name    | function_type |                                         description                                         | comment | examples |
 |---------------------|---------------|---------------------------------------------------------------------------------------------|---------|----------|
-| get_substrait       | table         | Converts the provided query into a binary Substrait plan                                    | NULL    | [NULL]   |
-| get_substrait_json  | table         | Converts the provided query into a Substrait plan in JSON                                   | NULL    | [NULL]   |
-| from_substrait      | table         | Executes a binary Substrait plan (provided as bytes) against DuckDB and returns the results | NULL    | [NULL]   |
-| from_substrait_json | table         | Executes a Substrait plan written in JSON against DuckDB and returns the results            | NULL    | [NULL]   |
+| get_substrait       | table         | Converts the provided query into a binary Substrait plan                                    | -       | [NULL]   |
+| get_substrait_json  | table         | Converts the provided query into a Substrait plan in JSON                                   | -       | [NULL]   |
+| from_substrait      | table         | Executes a binary Substrait plan (provided as bytes) against DuckDB and returns the results | -       | [NULL]   |
+| from_substrait_json | table         | Executes a Substrait plan written in JSON against DuckDB and returns the results            | -       | [NULL]   |
 
 

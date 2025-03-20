@@ -135,10 +135,10 @@ LOAD {{ page.extension.name }};
 
 |  function_name  | function_type | description | comment | examples |
 |-----------------|---------------|-------------|---------|----------|
-| open_prompt     | scalar        | NULL        | NULL    | []       |
-| set_api_timeout | scalar        | NULL        | NULL    | []       |
-| set_api_token   | scalar        | NULL        | NULL    | []       |
-| set_api_url     | scalar        | NULL        | NULL    | []       |
-| set_model_name  | scalar        | NULL        | NULL    | []       |
+| open_prompt     | scalar        | -           | -       | []       |
+| set_api_timeout | scalar        | -           | -       | []       |
+| set_api_token   | scalar        | -           | -       | []       |
+| set_api_url     | scalar        | -           | -       | []       |
+| set_model_name  | scalar        | -           | -       | []       |
 
 

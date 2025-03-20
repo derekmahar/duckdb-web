@@ -66,11 +66,11 @@ LOAD {{ page.extension.name }};
 
 |           function_name           | function_type | description | comment | examples |
 |-----------------------------------|---------------|-------------|---------|----------|
-| cache_httpfs_clear_cache          | scalar        | NULL        | NULL    | []       |
-| cache_httpfs_clear_cache_for_file | scalar        | NULL        | NULL    | []       |
-| cache_httpfs_clear_profile        | scalar        | NULL        | NULL    | []       |
-| cache_httpfs_get_cache_size       | scalar        | NULL        | NULL    | []       |
-| cache_httpfs_get_profile          | scalar        | NULL        | NULL    | []       |
+| cache_httpfs_clear_cache          | scalar        | -           | -       | []       |
+| cache_httpfs_clear_cache_for_file | scalar        | -           | -       | []       |
+| cache_httpfs_clear_profile        | scalar        | -           | -       | []       |
+| cache_httpfs_get_cache_size       | scalar        | -           | -       | []       |
+| cache_httpfs_get_profile          | scalar        | -           | -       | []       |
 
 ### Added Settings
 

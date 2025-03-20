@@ -127,6 +127,6 @@ LOAD {{ page.extension.name }};
 
 | function_name | function_type | description | comment | examples |
 |---------------|---------------|-------------|---------|----------|
-| evalexpr_rhai | scalar        | NULL        | NULL    | []       |
+| evalexpr_rhai | scalar        | -           | -       | []       |
 
 

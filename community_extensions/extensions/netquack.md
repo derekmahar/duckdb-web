@@ -58,16 +58,16 @@ LOAD {{ page.extension.name }};
 
 |    function_name     | function_type |                description                 | comment |                              examples                               |
 |----------------------|---------------|--------------------------------------------|---------|---------------------------------------------------------------------|
-| extract_domain       | scalar        | Extracting the main domain from a URL      | NULL    | [SELECT extract_domain('a.example.com') as domain;]                 |
-| extract_host         | scalar        | Extracting the hostname from a URL         | NULL    | [SELECT extract_host('https://b.a.example.com/path/path') as host;] |
-| extract_path         | scalar        | Extracting the path from a URL             | NULL    | [SELECT extract_path('example.com/path/path/image.png') as path;]   |
-| extract_query_string | scalar        | Extracting the query string from a URL     | NULL    | [SELECT extract_query_string('example.com?key=value') as query;]    |
-| extract_schema       | scalar        | Extracting the schema from a URL           | NULL    | [SELECT extract_schema('mailto:someone@example.com') as schema;]    |
-| extract_subdomain    | scalar        | Extracting the subdomain from a URL        | NULL    | [SELECT extract_subdomain('test.example.com.ac') as dns_record;]    |
-| extract_tld          | scalar        | Extracting the top-level domain from a URL | NULL    | [SELECT extract_tld('a.example.com') as tld;]                       |
-| get_tranco_rank      | scalar        | Getting the Tranco rank of a domain        | NULL    | [SELECT get_tranco_rank('cloudflare.com') as rank;]                 |
-| update_suffixes      | scalar        | Update public suffixes                     | NULL    | [SELECT update_suffixes();]                                         |
-| update_tranco        | scalar        | Update tranco data                         | NULL    | [SELECT update_tranco(true);]                                       |
-| netquack_version     | table         | NULL                                       | NULL    | [NULL]                                                              |
+| extract_domain       | scalar        | Extracting the main domain from a URL      | -       | [SELECT extract_domain('a.example.com') as domain;]                 |
+| extract_host         | scalar        | Extracting the hostname from a URL         | -       | [SELECT extract_host('https://b.a.example.com/path/path') as host;] |
+| extract_path         | scalar        | Extracting the path from a URL             | -       | [SELECT extract_path('example.com/path/path/image.png') as path;]   |
+| extract_query_string | scalar        | Extracting the query string from a URL     | -       | [SELECT extract_query_string('example.com?key=value') as query;]    |
+| extract_schema       | scalar        | Extracting the schema from a URL           | -       | [SELECT extract_schema('mailto:someone@example.com') as schema;]    |
+| extract_subdomain    | scalar        | Extracting the subdomain from a URL        | -       | [SELECT extract_subdomain('test.example.com.ac') as dns_record;]    |
+| extract_tld          | scalar        | Extracting the top-level domain from a URL | -       | [SELECT extract_tld('a.example.com') as tld;]                       |
+| get_tranco_rank      | scalar        | Getting the Tranco rank of a domain        | -       | [SELECT get_tranco_rank('cloudflare.com') as rank;]                 |
+| update_suffixes      | scalar        | Update public suffixes                     | -       | [SELECT update_suffixes();]                                         |
+| update_tranco        | scalar        | Update tranco data                         | -       | [SELECT update_tranco(true);]                                       |
+| netquack_version     | table         | -                                          | -       | [NULL]                                                              |
 
 
